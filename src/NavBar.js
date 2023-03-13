@@ -17,9 +17,9 @@ const NavBar = ({accounts, setAccounts}) => {
     }
 
     return (
-        <Flex justify = "space-between" align="center" padding="30px">
+        <Flex className='nav' justify = "space-between" align="center" padding="30px">
             {/* Left side Social Media Icons */}
-            <Flex justify = "space-around" width="40%" padding=" 0 75px">
+            {/* <Flex justify = "space-around" width="40%" padding=" 0 75px">
                 <Link href="https://www.facebook.com">
                     <Image src = {Facebook} boxSize ="42px" margin = "0 15px"/>
                 </Link>
@@ -29,27 +29,34 @@ const NavBar = ({accounts, setAccounts}) => {
                 <Link href="https://www.email.com">
                     <Image src = {Email} boxSize ="42px" margin = "0 15px"/>
                 </Link>
+            </Flex> */}
+            <Flex justify = "space-around" width="40%" padding=" 0 75px">
+                <Link href="">
+                    <p className="logo">Eru Chefs</p>
+                </Link>
+                
             </Flex>
 
             {/* Right side -Section and connect */}
-            <Flex
+            <Flex 
             justify="space-around"
             align="center"
             width="40%"
             padding="30px"
             >
+                <Box className='bar'>
                 <Box margin = "0 15px">About</Box>
                 <spacer/>
                 <Box margin = "0 15px">Mint</Box>
                 <spacer/>
                 <Box margin = "0 15px">Team</Box>
                 <spacer/>
-
+                </Box>
                 {/* Connect*/}
             {isConnected ?(
                 <Box margin="0 15px">Connected</Box>
             ) : (
-                <Button 
+                <Button  
                 background="#D6517D"
                 borderRadius="5px"
                 boxShadow="0px 2px 2px 1px #0F0F0F"

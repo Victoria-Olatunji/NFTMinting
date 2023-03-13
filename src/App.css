@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 @import url("https://fonts.googleapis.com/css?family=VT323");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
+
 .App {
   text-align: center;
   font-family: "Press start 2P", "VT323";
@@ -38,3 +40,27 @@ body {
   background-attachment: fixed;
   background-position: 40% 40%;
 }
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: brown;
+  margin-left: -100px;
+  font-weight: bolder;
+}
+
+
+@media screen and (max-width: 768px) {
+  .bar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bar {
+    display: flex;
+  }
+}
+

@@ -42,7 +42,7 @@ const MainMint = ({ accounts, setAccounts}) => {
         <Flex justify = "center" align="center" height="100vh" paddingBottom="150px">
             <Box width="520px">
                 <div>
-                    <Text fontsize="48px" textshadow="0 5px #000000">Eru Chefs Nfts Collection</Text>
+                    <Text fontsize="48px" textshadow="0 5px #000000" marginTop="-100px">Eru Chefs Nfts Collection</Text>
                     <Text
                     fontSize="30px"
                     letterSpacing="-5.5%"
@@ -107,11 +107,11 @@ const MainMint = ({ accounts, setAccounts}) => {
             ) : (
                 <Text
                 marginTop="70px" 
-                fontsize="30px"
+                fontSize="25px"
                 letterSpacing="-5.5%"
                 fontFamily="VT323"
                 textshadow="0 3px #000000"
-                color="#D6517D"
+                color="white"
                 >
                     You must be connected to mint
                 </Text>     
