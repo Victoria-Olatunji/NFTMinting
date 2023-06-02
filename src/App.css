@@ -47,8 +47,10 @@ a {
 
 .logo {
   color: brown;
-  margin-left: -100px;
+  margin-left: -280px;
   font-weight: bolder;
+  font-size: large;
+  margin-top: 20px;
 }
 
 

@@ -68,9 +68,8 @@ const NavBar = ({accounts, setAccounts}) => {
                 onClick = {connectAccount}>Connect</Button>
             )}
             </Flex>
-    
         </Flex>
-  )
+  );
 }
 
 export default NavBar;
